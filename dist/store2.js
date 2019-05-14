@@ -239,5 +239,5 @@
     // safely setup store.session (throws exception in FF for file:/// urls)
     store.area("session", (function(){try{ return sessionStorage; }catch(e){}})());
 
-export deafult store;
+export default store;
 
